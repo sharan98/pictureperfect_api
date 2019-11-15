@@ -17,5 +17,5 @@ func main() {
 	mux := mux.NewRouter()
 
 	h.SetupRoutes(mux)
-	http.ListenAndServe(":80", mux)
+	http.ListenAndServe(":8000", mux)
 }
